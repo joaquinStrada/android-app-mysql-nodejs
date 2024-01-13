@@ -6,7 +6,7 @@ const config = {
         host: process.env.HOST_DB || 'localhost',
         port: process.env.PORT_DB || 3306,
         user: process.env.USER_DB || 'root',
-        password: process.env.PASS_DB || 'joaquin#2116',
+        password: process.env.PASS_DB || '',
         database: process.env.DB_NAME || 'apptasks'
     }
 };
